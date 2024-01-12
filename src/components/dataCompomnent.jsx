@@ -1,7 +1,6 @@
 import elephant from './../images/elephant.jpeg';
 
-const imageData = () => {
-    // differentiate by ID 
+
     let data = [
       {
         id: 1,
@@ -20,7 +19,6 @@ const imageData = () => {
         img: elephant,
       },
     ];
-    return data;
-  };
 
-export default imageData;
+
+export default data;

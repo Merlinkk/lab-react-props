@@ -1,9 +1,9 @@
 import "./App.css";
-import imageData from "/src/components/dataCompomnent.jsx";
+// import imageData from "/src/components/dataCompomnent.jsx";
 
 
-function App() {
-  let imgData = imageData();
+function App(Data) {
+  let imgData = Data.data;
   // code here
   return (
     <>
